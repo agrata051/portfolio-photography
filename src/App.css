@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,6 +10,7 @@ body {
   text-align: center;
 }
 
+/* Navigation */
 nav {
   position: absolute;
   top: 10px;
@@ -29,8 +31,8 @@ nav button:hover {
   background-color: #555;
 }
 
+/* Home Section */
 .home {
-  background-image: url("file:///C:/Users/Dell/Downloads/1960b092f630cfb1d48ebbceae8967ea.jpg/");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -51,11 +53,13 @@ nav button:hover {
   margin: 0;
 }
 
+/* Sections */
 .my-work, .about, .contact {
   padding: 50px;
   border-radius: 0%;
 }
 
+/* Gallery */
 .gallery {
   display: flex;
   justify-content: center;
@@ -69,25 +73,24 @@ nav button:hover {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(224, 186, 186, 0.1);
 }
+
+/* About Section */
 .about {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
-  justify-content: center; /* Center content vertically inside the box */
-  align-items: center; /* Center content horizontally inside the box */
-  margin: 150px auto; /* Center the box horizontally and add vertical spacing */
-  padding: 20px; /* Reduce padding for less space inside the box */
-  max-width: 600px; /* Limit the width of the box */
-  background-color: rgb(65, 64, 64); /* Set a background color for the box */
-  color: rgb(9, 9, 9); /* Use white text for contrast */
-  border-radius: 10px; /* Round the corners of the box */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  text-align: left; /* Center-align the text */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: rgb(65, 64, 64);
+  color: rgb(9, 9, 9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
-
-
-
-
+/* Links */
 a {
   color: #333;
   text-decoration: none;
